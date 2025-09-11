@@ -131,6 +131,7 @@ body {
     position: relative;
     overflow: hidden;
     background: var(--spotify-white);
+    padding-top: 100px;
 }
 
 .hero-background {
@@ -913,7 +914,10 @@ body {
         padding: 0 16px;
     }
     
-    .hero,
+    .hero {
+        padding: 120px 0 80px;
+    }
+    
     .problem-section,
     .video-section,
     .features-section,
@@ -971,6 +975,10 @@ body {
     .hero-stats {
         flex-direction: column;
         gap: 16px;
+    }
+    
+    .hero {
+        padding: 100px 0 60px;
     }
 }
 
